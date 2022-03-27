@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding:5px;
+    margin: 10px auto;
+}
+body{
+    font-size: 18px;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-weight: normal;
+    background: #e8e8e8;
+}
+
+.conteiner{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+.conteiner p{
+    text-align: center;
+}
+
+.conteiner h1, h2, h3{
+    color:#3a5856;
+    margin: 10px;
+    text-align: center;
+}
+
+.card{
+    background: url(img/background1.png);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 10px 20px;
+}
+
+.avatar{
+    display:block;
+    padding:0px;
+    width:200px;   
+    border-radius: 100px;
+    box-shadow: 4px 4px 14px;
+    rgba(0, 0, 0, 0.25); 
+
+}
+
+.list{
+    color:#80b7b3;
+    font-weight: bold;
+}
+
+
+.cw{
+    width: 50px;
+
+    
+}
+
+.cw:hover{
+    width: 55px;
+
+}
+
+.sn{
+    height: 40px;
+    padding-left: 45%;
+  
+}
+
+ul li:first-child{
+    color:#3a5856;
+    letter-spacing: 4px;
+}
+.table{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+.table td:hover{
+    background: #eeefff;
+}
+
+.connection{
+display: block;
+font-size: 14px;
+color:#3a5856;
+}
+
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .connection{
+    margin-right: 20px;
+    width: 50%;
+}
+
+.form-row .connection:last-child{
+    margin-right: 0;
+}
+
+
+.connection label{
+    display: block;
+    font-size: 16px;
+    color:#3a5856;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+
+}
+
+.connection input, textarea {
+width: 100%;
+box-sizing:border-box;
+border: none;
+background: transparent;
+border-bottom: 1px solid #ccc;
+color:#000;
+padding: 15px 0 10px;
+outline: none;
+font-family: inherit;
+}
+
+@media (max-width:650px){
+    .form-row{
+        display: block;
+    }
+    .form-row .connection{
+        
+        width:100%;
+        margin-right: 0;   
+        margin-bottom: 10px;
+    
+    }
+}
+.btn{
+    display: block;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0,0.5);
+    background:rgba(118, 156, 134, 0.5);
+    padding: 12px 20px;
+    border-radius: 10px;
+    color:white;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+    cursor:pointer;
+    font-family: inherit;
+}
+
+button:hover {
+    background:rgba(118, 156, 134, 0.8);
+}
+
+button:active{
+    background:rgba(118, 156, 134, 1);
+}
